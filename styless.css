@@ -8,7 +8,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, #08001f, #3a17af);
+    background: linear-gradient(45deg, #08001f, #3f16c8);
     color: #fff;
     position: relative;
 }
@@ -37,7 +37,7 @@
     content: '';
     width: 180px;
     height: 180px;
-    background: #f41b75;
+    background: #1bf4e2;
     border-radius: 5px;
     position: absolute;
     left: -50px;
@@ -50,7 +50,7 @@
     content: '';
     width: 180px;
     height: 180px;
-    background: #419aff;
+    background: #41ff86;
     border-radius: 50%;
     position: absolute;
     right: -30px;
@@ -87,3 +87,27 @@
     content: 'SEC';
 }
 
+
+footer {
+    font-weight: 900;
+    color: #fff; /* Text color of the footer */
+    padding: 20px; /* Padding around the footer content */
+    text-align: center; /* Align text to the center */
+    position: fixed; /* Fixed position at the bottom of the viewport */
+    left: 0;
+    bottom: 50px;
+    width: 100%; /* Full width */
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .clock span {
+        font-size: 60px; /* Adjust font size for smaller screens */
+        width: 80px; /* Adjust width for smaller screens */
+    }
+
+}
